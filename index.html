@@ -1,43 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="loco.css" />
 </head>
 <body>
-    <div id="main">
-        <div id="hero">
-            <div id="nav">
-                <a href="#">Md Sazid</a>
-                <h4>Menu+</h4>
-            </div>
-            <div id="heading">
-                <h1>Undergratuate</h1>
-                <div class="blocktext">
-                     <h1 id="secondh1">Student</h1>
-                     <h5>Based in Dhaka</h5>
-                </div>
-            </div>
-            <div id="smallheadings">
-                <h5>available for intern</h5>
-                <h5>work from june25</h5>
-            </div>
-            <div id="herofooter">
-                <a href="#">previously worked at</a><i class="ri-arrow-right-up-line"></i>
-                <a href="#">sub excutive</a>
-                <div id="iconset">
-                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
-                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
-                </div>
-            </div>
+  <div id="minicircle"></div>
+
+  <div id="main">
+    <div id="hero">
+      <div id="nav">
+        <a href="#">Syed Mohammed Sazid Ullah</a>
+        <h4>Menu+</h4>
+      </div>
+
+      <div id="heading">
+        <div class="bounding">
+          <h1 class="boundingelem">undergraduate</h1>
         </div>
+        <div class="blocktext">
+          <div class="bounding">
+            <h1 class="boundingelem" id="secondh1">Student</h1>
+          </div>
+          <div class="bounding">
+            <h5 class="boundingelem">Based in Dhaka</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="chhotiheadings">
+        <div class="bounding">
+          <h5 class="boundingelem">available for collaboration</h5>
+        </div>
+        <div class="bounding">
+          <h5 class="boundingelem">work from june 25'</h5>
+        </div>
+      </div>
+
+      <div id="herofooter">
+        <a href="#">previously worked at various project <i class="ri-arrow-right-up-line"></i></a>
+        <a href="#">sub excutive at AUSTPRC <i class="ri-arrow-right-up-line"></i></a>
+        <div id="iconset">
+          <div class="circle"><i class="ri-arrow-down-line"></i></div>
+          <div class="circle"><i class="ri-arrow-down-line"></i></div>
+        </div>
+      </div>
     </div>
-    
+
+    <div id="second">
+      <div class="elem">
+        <img src="github.png" alt="plug" />
+        <h1>github</h1>
+        <h5><a href="https://github.com/md-sazid9089" target="_blank">click!</a></h5>
+
+      </div>
+      <div class="elem">
+        <img src="spacex.png" alt="ixperience" />
+        <h1>experience</h1>
+        <h5><a href="https://github.com/md-sazid9089/app_demo" target="_blank">click!</a></h5>
+
+      </div>
+      <div class="elem elemlast">
+        <img src="image.png" alt="hudu" />
+        <h1>courses</h1>
+       <h5><a href="https://www.figma.com/proto/Nvz03pId6mkSifylTmWA8h/prqc?node-id=2-5" target="_blank">click!</a></h5>
+      </div>
+    </div>
+
+    <div id="about">
+      <img src="profile-modified.png" alt="Sazid" />
+      <div id="textabout">
+        <h5>(About Me)</h5>
+        <p>
+         "Undergraduate student at AUST | Passionate about technology and innovation | Actively building projects and expanding skills in [your field, e.g., software development/design/etc.]"
+        </p>
+        <a href="https://www.linkedin.com/in/syed-mohammed-sazid-ullah-4556372b5/">Let's talk</a>
+      </div>
+    </div>
+
+    <div id="connect">
+      <h5>(forgot to mention)</h5>
+      <h3>connect  to my linkedin <i class="ri-arrow-right-up-line"></i></h3>
+    </div>
+
+    <div id="footer">
+      <div id="footerleft">
+        <h5>2023 &copy;</h5>
+        <h5>0:05 AM EST</h5>
+      </div>
+      <div id="footerright">
+        
+        <a href="#">instagram </a>
+        <a href="#">facebook</a>
+        <a href="#">twitter</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
